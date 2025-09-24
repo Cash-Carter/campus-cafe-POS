@@ -1,0 +1,63 @@
+{
+    "products": [
+        {
+            "type": "food",
+            "id": 0,
+            "name": "pizza",
+            "price": "3",
+            "modifiers": [
+                {
+                    "type": "sum",
+                    "option": "add peperoni",
+                    "options": {
+                        "y": "0.5",
+                        "n": "0"
+                    }
+                },
+                {
+                    "type": "sum",
+                    "option": "add sausage",
+                    "options": {
+                        "y": "0.5",
+                        "n": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "food",
+            "id": 1,
+            "name": "hot dog",
+            "price": "1.5",
+            "modifiers": []
+        },
+        {
+            "type": "food",
+            "id": 2,
+            "name": "burger",
+            "price": "4.75",
+            "modifiers": []
+        },
+        {
+            "type": "beverage",
+            "id": 0,
+            "name": "water",
+            "price": "0",
+            "modifiers": []
+        },
+        {
+            "type": "beverage",
+            "id": 1,
+            "name": "Pepsi",
+            "price": "1",
+            "modifiers": []
+        },
+        {
+            "type": "beverage",
+            "id": 2,
+            "name": "lemonade",
+            "price": "0.75",
+            "modifiers": []
+        }
+    ]
+}

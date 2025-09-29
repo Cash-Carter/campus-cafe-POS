@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import edu.lewisu.cashcarter.campuscafepos.model.Modifier;
 import edu.lewisu.cashcarter.campuscafepos.model.ProductModifier;
+import edu.lewisu.cashcarter.campuscafepos.model.SumModifier;
 
 public class ModifierDeserializer extends JsonDeserializer<Modifier> {
 

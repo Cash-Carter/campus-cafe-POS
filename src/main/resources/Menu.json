@@ -43,21 +43,51 @@
             "id": 0,
             "name": "water",
             "price": "0",
-            "modifiers": []
+            "modifiers": [
+                {
+                    "type": "product",
+                    "option": "size",
+                    "options": {
+                        "s": "1",
+                        "m": "1.5",
+                        "l": "2"
+                    }
+                }
+            ]
         },
         {
             "type": "beverage",
             "id": 1,
             "name": "Pepsi",
             "price": "1",
-            "modifiers": []
+            "modifiers": [
+                {
+                    "type": "product",
+                    "option": "size",
+                    "options": {
+                        "s": "1",
+                        "m": "1.5",
+                        "l": "2"
+                    }
+                }
+            ]
         },
         {
             "type": "beverage",
             "id": 2,
             "name": "lemonade",
             "price": "0.75",
-            "modifiers": []
+            "modifiers": [
+                {
+                    "type": "product",
+                    "option": "size",
+                    "options": {
+                        "s": "1",
+                        "m": "1.5",
+                        "l": "2"
+                    }
+                }
+            ]
         }
     ]
 }

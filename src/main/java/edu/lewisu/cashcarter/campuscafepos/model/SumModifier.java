@@ -17,7 +17,7 @@ public class SumModifier extends Modifier {
 
     @Override
     public BigDecimal apply(BigDecimal value, String option) {
-        return value.multiply(options.get(option));
+        return value.add(options.get(option));
     }
     
 }
